@@ -5,28 +5,28 @@ package me.kdav.cats;
  */
 public class Cat {
 
-    String idCat = "";
-    String url = "";
+    String id;
+    String url;
     String apiKey = "ad1cf6a3-252d-48d4-bfed-af7c0e3ee5ec";
-    String img = "";
+    String img;
 
 
     /**
-     * Get idCat.
+     * Get id.
      *
-     * @return idCat as int.
+     * @return id as String.
      */
-    public String getIdCat() {
-        return idCat;
+    public String getId() {
+        return id;
     }
 
     /**
-     * Set idCat.
+     * Set id.
      *
-     * @param idCat the value to set.
+     * @param id the value to set.
      */
-    public void setIdCat(String idCat) {
-        this.idCat = idCat;
+    public void setId(String id) {
+        this.id = id;
     }
 
     /**

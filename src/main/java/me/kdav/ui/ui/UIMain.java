@@ -31,7 +31,7 @@ public class UIMain {
                 // GUICat.showMessage(tmpJOP);
                 // JOP.getRootFrame().dispose();
                 // JOptionPane.getRootFrame().dispose();
-                UICat.showCat();
+                UICat.showCat1();
                 // GUIMain.showMenu();
             default:
                 // System.out.printf("ERROR (❌): command not recognized\ntry again ↓\n");
