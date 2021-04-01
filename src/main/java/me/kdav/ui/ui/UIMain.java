@@ -18,7 +18,7 @@ public class UIMain {
 
         switch (uInput) {
             case 0:
-                System.out.println("Exiting the program...");
+                // System.out.println("Exiting the program...");
                 if (action == 0) {
                     JOP.getRootFrame().dispose();
                 } else if (action == 1) {

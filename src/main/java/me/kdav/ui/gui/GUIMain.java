@@ -26,7 +26,7 @@ public class GUIMain {
 
             @Override
             public void mouseClicked(MouseEvent e) {
-                System.out.println("'Exit' was clicked");
+                // System.out.println("'Exit' was clicked");
                 UIMain.processMenuInput(0, pane, 0);
                 // sendPane(0, pane);
                 // System.exit(0);
@@ -36,7 +36,7 @@ public class GUIMain {
         jbtSeeCats.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                System.out.println("'See cats!' was clicked");
+                // System.out.println("'See cats!' was clicked");
                 UIMain.processMenuInput(1, pane, 0);
             }
         });
