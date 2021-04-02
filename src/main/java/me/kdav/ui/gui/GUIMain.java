@@ -16,6 +16,7 @@ public class GUIMain {
     public static void showMenu() {
         JButton jbtExit = new JButton("Exit");
         JButton jbtSeeCats = new JButton("See Cats!");
+        JButton jbtShowFavoriteCats = new JButton("Show favorite cats");
 
         final JOptionPane pane = new JOptionPane();
 
@@ -41,7 +42,18 @@ public class GUIMain {
             }
         });
 
-        Object[] options = {jbtExit, jbtSeeCats};
+        jbtShowFavoriteCats.addMouseListener(new MouseAdapter() {
+
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                // System.out.println("'Exit' was clicked");
+                UIMain.processMenuInput(2, pane, 0);
+                // sendPane(0, pane);
+                // System.exit(0);
+            }
+        });
+
+        Object[] options = {jbtExit, jbtSeeCats, jbtShowFavoriteCats};
 
         do {
             pane.showOptionDialog(

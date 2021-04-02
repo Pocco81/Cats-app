@@ -33,6 +33,9 @@ public class UIMain {
                 // JOptionPane.getRootFrame().dispose();
                 UICat.showCat1();
                 // GUIMain.showMenu();
+            case 2:
+                UICat.showFavCat();
+                break;
             default:
                 // System.out.printf("ERROR (❌): command not recognized\ntry again ↓\n");
                 break;

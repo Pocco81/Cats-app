@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="me.kdav.AppTest" time="0.037" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="me.kdav.AppTest" time="0.027" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/sebas5758/code/java_c/Cats-app/target/surefire/surefirebooter2276219088155816711.jar /home/sebas5758/code/java_c/Cats-app/target/surefire 2021-04-01T18-37-04_660-jvmRun1 surefire17442118053222104639tmp surefire_07695242423600375935tmp"/>
+    <property name="sun.java.command" value="/home/sebas5758/code/java_c/Cats-app/target/surefire/surefirebooter8641605481372931085.jar /home/sebas5758/code/java_c/Cats-app/target/surefire 2021-04-01T22-29-18_940-jvmRun1 surefire1334445660798461138tmp surefire_017408247478673781728tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/sebas5758/code/java_c/Cats-app/target/test-classes:/home/sebas5758/code/java_c/Cats-app/target/classes:/home/sebas5758/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/sebas5758/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/sebas5758/.m2/repository/com/squareup/okhttp/okhttp-urlconnection/2.7.5/okhttp-urlconnection-2.7.5.jar:/home/sebas5758/.m2/repository/com/squareup/okhttp/okhttp/2.7.5/okhttp-2.7.5.jar:/home/sebas5758/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/sebas5758/.m2/repository/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar:/home/sebas5758/.m2/repository/com/squareup/okhttp3/okhttp-urlconnection/5.0.0-alpha.2/okhttp-urlconnection-5.0.0-alpha.2.jar:/home/sebas5758/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.21/kotlin-stdlib-jdk8-1.4.21.jar:/home/sebas5758/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.21/kotlin-stdlib-1.4.21.jar:/home/sebas5758/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.21/kotlin-stdlib-common-1.4.21.jar:/home/sebas5758/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/sebas5758/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.21/kotlin-stdlib-jdk7-1.4.21.jar:/home/sebas5758/.m2/repository/com/squareup/okio/okio/1.17.5/okio-1.17.5.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/sebas5758/code/java_c/Cats-app/target/surefire/surefirebooter2276219088155816711.jar"/>
+    <property name="surefire.real.class.path" value="/home/sebas5758/code/java_c/Cats-app/target/surefire/surefirebooter8641605481372931085.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.10+9-Ubuntu-0ubuntu1.20.10"/>
     <property name="user.name" value="sebas5758"/>

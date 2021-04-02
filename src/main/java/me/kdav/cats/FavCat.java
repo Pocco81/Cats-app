@@ -1,15 +1,17 @@
 package me.kdav.cats;
 
+
+import me.kdav.cats.ImageX;
+
 /**
- * Cat
+ * FavCat
  */
-public class Cat {
+public class FavCat {
 
-    private String id;
-    private String url;
+    private String id = "";
+    private String url = "";
     private String apiKey = "ad1cf6a3-252d-48d4-bfed-af7c0e3ee5ec";
-    private String img;
-
+    public ImageX image;
 
     /**
      * Get id.
@@ -66,20 +68,20 @@ public class Cat {
     }
 
     /**
-     * Get img.
+     * Get image.
      *
-     * @return img as String.
+     * @return image as ImageX.
      */
-    public String getImg() {
-        return img;
+    public ImageX getImage() {
+        return image;
     }
 
     /**
-     * Set img.
+     * Set image.
      *
-     * @param img the value to set.
+     * @param image the value to set.
      */
-    public void setImg(String img) {
-        this.img = img;
+    public void setImage(ImageX image) {
+        this.image = image;
     }
 }
